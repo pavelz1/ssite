@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/futuraptbook.woff2') format('woff2'),
+         url('fonts/futuraptbook.woff') format('woff');
+		font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+		font-family: 'Futura PT';
+    src: url('fonts/futuraptheavy.woff2') format('woff2'),
+         url('fonts/futuraptheavy.woff') format('woff');
+		font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/futuraptmedium.woff2') format('woff2'),
+         url('fonts/futuraptmedium.woff') format('woff');
+		font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.btn-reset {
+	border:none;
+	padding: 0;
+	background-color:transparent;
+	cursor: pointer;
+}
+/**/
+body {
+	overflow-anchor: none;
+	margin: 0;
+	font-family: "Futura PT", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #f9f9f9;
+}
+.container {
+	max-width: 1430px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header {
+    background-color: rgb(247, 84, 225, 20%);
+	display: flex;
+    flex-direction: row;
+}
+.header .logo {
+    display: flex;
+    justify-content: center;
+}
+.header img {
+	width: 250px;
+	height: auto;
+}
+.header__right .phone {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+h1 {
+	color:#b31092;
+	text-align: center;
+}
+.popular-posts__list {
+	list-style: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 10px;
+}
+
+/*Footer*/
+.footer {
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+}
+.footer .logo {
+    display: flex;
+    justify-content: center;
+}
+.footer img {
+	width: 250px;
+	height: auto;
+}
+.footer__nav,
+.footer__copy {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+	margin-bottom: 40px;
+}
+/* Button */
+.wrapper__btn {
+	margin: 20px 0;
+}
+.btn {
+	display: inline-block; /* Строчно-блочный элемент */
+	background: #b31092; /* Серый цвет фона */
+	color: #fff; /* Белый цвет текста */
+	padding: 1rem 1.5rem; /* Поля вокруг текста */
+	text-decoration: none; /* Убираем подчёркивание */
+	border-radius: 3px; /* Скругляем уголки */
+}
+.btn:hover {
+    background: rgb(179, 16, 146, 70%);
+}
+
+/**/
+.wrapper__img {
+	display: flex;
+	width: 600px;
+    margin: 0 auto;
+}
+.wrapper__img img {
+	max-width: 100%;
+}
